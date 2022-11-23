@@ -14,7 +14,7 @@
    font-family: "Open Sans", sans-serif;
    box-sizing: border-box;
    margin: 0;
-   padding: 0;
+   padding: 0;   
 }
 
 a, a:hover
@@ -26,7 +26,7 @@ a, a:hover
 .container
 {
    width: 100%;
-   max-width: 960px;
+   max-width: 960px;   
    margin: 0 auto;
 }
 
@@ -79,6 +79,7 @@ nav a
 {
    color: var(--color-white);
    margin-bottom: 40px;
+   line-height: 43.58px;
 }
 
 .card-space
@@ -93,11 +94,49 @@ nav a
 {
    margin: 10px 0;
    font-size: 20px;
+   line-height: 27.24px;
 }
 
 .card-space p
 {
    margin: 10px 0;
    font-size: 14px;
+   line-height: 19.07px;
 }
 
+#modalities
+{
+   background-color: var(--color-white);
+   padding: 20px 15px;
+}
+
+#modalities h2
+{
+   color: var(--color-red);
+   margin-bottom: 40px;
+   line-height: 43.58px;
+}
+
+.card-modalities
+{
+   background-color: var(--color-blue);
+   border-radius: 8px;
+   padding: 20px;
+   margin: 20px 0;
+}
+
+.card-modalities h4
+{
+   margin: 10px 0;
+   font-size: 20px;
+   line-height: 27.24px;
+   color: var(--color-white);
+}
+
+.card-modalities p
+{
+   margin: 10px 0;
+   font-size: 14px;
+   line-height: 19.07px;
+   color: var(--color-white);
+}
