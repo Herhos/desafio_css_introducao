@@ -4,6 +4,7 @@
 {
    --color-red: #F03C42;
    --color-blue: #222374;
+   --color-gray: #CCCCCC;
    --color-white: #FFFFFF;
    --color-black: #000000;
 }
@@ -35,6 +36,7 @@ header
    height: 100px;
    display: flex;
    align-items: center;
+   padding: 20px 15px;
 }
 
 .header-content
@@ -65,5 +67,37 @@ nav a
 {
    display: flex;
    align-items: center;
+}
+
+#know
+{
+   background-color: var(--color-blue);
+   padding: 20px 15px;
+}
+
+#know h2
+{
+   color: var(--color-white);
+   margin-bottom: 40px;
+}
+
+.card-space
+{
+   background-color: var(--color-gray);
+   border-radius: 8px;
+   padding: 20px;
+   margin: 20px 0;
+}
+
+.card-space h4
+{
+   margin: 10px 0;
+   font-size: 20px;
+}
+
+.card-space p
+{
+   margin: 10px 0;
+   font-size: 14px;
 }
 
