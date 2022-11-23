@@ -2,10 +2,10 @@
 
 :root
 {
-   color-red: #F03C42;
-   color-blue: #222374;
-   color-white: #FFFFFF;
-   color-black: #000000;
+   --color-red: #F03C42;
+   --color-blue: #222374;
+   --color-white: #FFFFFF;
+   --color-black: #000000;
 }
 
 *
@@ -15,3 +15,55 @@
    margin: 0;
    padding: 0;
 }
+
+a, a:hover
+{
+   color: unset;
+   text-decoration: none;
+}
+
+.container
+{
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+header
+{
+   background-color: var(--color-red);
+   height: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.header-content
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+nav h5
+{
+   color: var(--color-white);
+   font-size: 18px;
+}
+
+nav img
+{
+   width: 30px;
+}
+
+nav a
+{
+  color: var(--color-white);
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.logo-instagram
+{
+   display: flex;
+   align-items: center;
+}
+
